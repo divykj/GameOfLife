@@ -3,6 +3,7 @@
 ALIVE = 1
 DEAD = 0
 
+
 def tick_cell(cells, width, height, x, y):
     alive_neighbours = sum(
         cells[j % height][i % width]
