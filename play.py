@@ -8,8 +8,8 @@ from time import sleep
 
 from game_of_life import ALIVE, DEAD, is_dead, tick
 
-with open("artifacts.json", "r") as atrtifacts_file:
-    ARTIFACTS = loads(atrtifacts_file.read())
+with open("artifacts.json", "r") as artifacts_file:
+    ARTIFACTS = loads(artifacts_file.read())
 
 
 def draw_cells(cells) -> None:
